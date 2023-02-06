@@ -1,0 +1,59 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Inter";
+}
+
+.btn{
+    width:3rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn:active{
+    scale: 0.98;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-value .value{
+    width: auto;
+    font-size: 3rem;
+}
+
+
+input[type="number"]{
+    border: 1px solid black;
+    height: 2rem;
+    width: 7.5rem;
+    font-size: 1.5rem;
+}
+
+input[type="number"]:focus{
+    outline: none;
+}
+
+.counter-reset #reset{
+    width: 7.5rem;
+    font-size: 1rem;
+    font-family: "Inter";
+    text-transform: uppercase;
+}
