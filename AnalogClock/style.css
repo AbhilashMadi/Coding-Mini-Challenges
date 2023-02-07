@@ -53,8 +53,10 @@ body {
 .center-connector{
     height: 5%;
     width: 5%;
-    background-color: black;
     border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 .seconds-hand,
